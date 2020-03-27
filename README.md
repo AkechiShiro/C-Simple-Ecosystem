@@ -25,12 +25,12 @@ For each iteration, the cpt counter is incremented.
 Make sure you have all the following requirements :
 
 - git : the git command line utility
-- gcc : the GNU gcc compiler is used for this project (version 9.2.1 or higher) 
-- make : the GNU make utility (version 4.2.1 or higher)
+- gcc : the GNU gcc compiler is used for this project (recommended: 9.2.1 or higher) 
+- make : the GNU make utility (recommended : version 4.2.1 or higher)
 
 ### Requirements
 
-To install the [git command line utility](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) follow the instruction.
+To install the [git command line utility](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) follow the instructions at the given link.
 
 Make sure you have the [gcc](https://gcc.gnu.org/) compiler, if not please install following the instructions specific for your system.
 
@@ -53,7 +53,7 @@ git clone https://github.com/AkechiShiro/C-Simple-Ecosystem
 cd C-Simple-Ecosystem
 make
 ```
-If no errors are shown, then all is fine, you can test the simulation by running `./ecosys` in the project folder.
+If no errors are shown, you can test the simulation by running `./ecosys` in the project folder.
 
 ### An example of running it
 
