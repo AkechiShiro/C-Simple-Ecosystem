@@ -1,0 +1,9 @@
+# ignore all object files
+*.o
+# ignore all .gch files
+*.gch
+# ignore all executable 
+ecosys
+tests_ecosys
+# ignore all archives
+*.tar
