@@ -49,8 +49,8 @@ These two softwares usually are by default installed on most Linux distributions
 Open your favorite terminal, run: 
 
 ```
-git clone https://github.com/AkechiShiro/C-Simple-Ecosystem
-cd C-Simple-Ecosystem
+git clone https://github.com/AkechiShiro/C-simple-ecosystem
+cd C-simple-ecosystem
 make
 ```
 If no errors are shown, you can test the simulation by running `./ecosys` in the project folder.
