@@ -4,10 +4,10 @@ This simple model is printed as two dimensional grid in the terminal.
 
 The following convention is followed to show the different entities :
 
-+ : corner of the grid
+\+ : corner of the grid
 | : border of the grid
 O : prey
-* : predator
+\* : predator
 @ : predator and prey
 
 Predators consumes preys, each move for a predator costs energy.
