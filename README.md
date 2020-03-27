@@ -1,6 +1,6 @@
 # Simple model in C for an ecosystem of one prey/predator
 
-This simple model is printed as two dimensional grid in the terminal.
+This simple model is printed as a two dimensional grid in the terminal.
 
 The following convention is followed to show the different entities :
 
