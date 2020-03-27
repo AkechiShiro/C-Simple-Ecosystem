@@ -53,7 +53,7 @@ git clone https://github.com/AkechiShiro/C-simple-ecosystem
 cd C-simple-ecosystem
 make
 ```
-If no errors are shown, you can test the simulation by running `./ecosys` in the project folder.
+If no errors are shown (if there is one please open an issue!), you can test the simulation by running `./ecosys` in the project folder.
 
 ### An example of running it
 
