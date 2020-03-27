@@ -1,4 +1,4 @@
-CFLAGS := -g -Wall
+CFLAGS := -Wall -O3
 PROGRAM=test_ecosys ecosys
 all: tests_ecosys ecosys
 
