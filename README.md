@@ -20,9 +20,17 @@ For each prey consumed, predators gains five energy.
 At the beginning, the simulation contains an equal number of preys and predators.
 For each iteration, the cpt counter is incremented.
 
-## To run this simulation model
+
+### Requirements
 
 You need to make sure you have the [gcc](https://gcc.gnu.org/) compiler installed, if not please install following the instructions specific for your system.
+
+You also need to make sure you have the GNU `make` utility installed, you can run either `command -v make` or `which make`, if a path is returned, then you already have it.
+The same can be done to test if you have the `gcc` compiler.
+
+These two softwares usually are by default installed on most Linux distributions.
+
+## To run this simulation model
 
 Open your favorite terminal and inside the project folder, run `make`.
 
