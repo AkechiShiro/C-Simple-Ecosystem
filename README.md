@@ -20,21 +20,40 @@ For each prey consumed, predators gains five energy.
 At the beginning, the simulation contains an equal number of preys and predators.
 For each iteration, the cpt counter is incremented.
 
+## To run this simulation model
+
+Make sure you have all the following requirements :
+
+- git : the git command line utility
+- gcc : the GNU gcc compiler is used for this project (version 9.2.1 or higher) 
+- make : the GNU make utility (version 4.2.1 or higher)
 
 ### Requirements
 
-You need to make sure you have the [gcc](https://gcc.gnu.org/) compiler installed, if not please install following the instructions specific for your system.
+To install the [git command line utility](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) follow the instruction.
 
-You also need to make sure you have the GNU `make` utility installed, you can run either `command -v make` or `which make`, if a path is returned, then you already have it.
-The same can be done to test if you have the `gcc` compiler.
+Make sure you have the [gcc](https://gcc.gnu.org/) compiler, if not please install following the instructions specific for your system.
+
+Make sure you have the GNU `make` utility.
+
+#### How can I make sure I have everything ?
+
+You can run either `command -v my_required_command` or `which my_required_command`, as an example you could run `command -v make`, if a path is returned, then you can proceed to the next section.
+
+The same commands can be done to test if you have the `gcc` compiler.
 
 These two softwares usually are by default installed on most Linux distributions.
 
-## To run this simulation model
+### Run the simulation
 
-Open your favorite terminal and inside the project folder, run `make`.
+Open your favorite terminal, run: 
 
-Then, you can test that the simulation works by running `./ecosys`.
+```
+git clone https://github.com/AkechiShiro/C-Simple-Ecosystem
+cd C-Simple-Ecosystem
+make
+```
+If no errors are shown, then all is fine, you can test the simulation by running `./ecosys` in the project folder.
 
 ### An example of running it
 
